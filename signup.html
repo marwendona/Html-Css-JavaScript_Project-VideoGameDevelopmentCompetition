@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoBox">
+            <img class="logo" src="img/logo_iit_white.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li ><a href='index.html #AboutSection'>About</a></li>
+                <li><a href='index.html #AwardsSection'>Awards</a></li>
+                <li><a href='index.html #FacilitiesSection'>Facilities</a></li>
+                <li><a href='index.html #ContactSection'>Contact</a></li>
+            </ul>
+        </nav>
+    </header><br>
+
+    <section class="form">
+        <center>
+            <h1 class="sectionTitle formTitle">SIGN <span class="glitch">U</span>P FORM</h1>
+        
+        <section class="formContent">
+            <table>
+                <tr>
+                    <td><label for="First">First Name</label></td>
+                    <td><input type="text" name="First" id="First"></td>
+                </tr>
+                <tr>
+                    <td><label for="Last">Last Name</label></td>
+                    <td><input type="text" name="Last" id="Last"></td>
+                </tr>
+                <tr>
+                    <td><label for="id">ID Card</label></td>
+                    <td><input type="text" name="id" id="id"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date of Birth </label></td>
+                    <td><input type="date" name="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input type="text" name="age" id="age" placeholder="XX"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email </label< /td>
+                    <td><input type="email" name="email" id="email" placeholder="exemple@domaine.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone">Phone Number</label></td>
+                    <td><input type="text" name="tel" id="Phone" placeholder="+21600000000"></td>
+                </tr>
+                <tr>
+                    <td> Gender </td>
+                    <td><select name="Gender">
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Is this your first time ?</td>
+                    <td>
+                        <input type="radio" onchange="onOptionChanged(this.id)"
+                            name="select" value="Yes" id="Yes">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" onchange="onOptionChanged(this.id)" name="select" value="No"
+                            id="No">
+                        <label for="No">No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="Game Question" hidden="true"></td>
+                    <td><input type="radio" id="once" value="once" hidden="true">
+                        <label for="once" hidden="true" id="onceLabel">Once</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="radio" id="twice" value="twice" hidden="true">
+                        <label for="twice" hidden="true" id="twiceLabel">Twice</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="radio" id="more" value="more" hidden="true">
+                        <label for="more" hidden="true" id="moreLabel">More</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="more">Comments or Questions (Optional)</label></td>
+                    <td><input type="text" name="more" id="more" style="width: 400px; height: 80px;"></td>
+                </tr>
+            </table>
+            <center><input class="save styled" type="button" value="Save"></center>
+        </section></center>
+    </section><br>
+</body>
+
+</html>

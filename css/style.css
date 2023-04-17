@@ -1,0 +1,317 @@
+@import url('../fonts/Comfortaa-Regular.ttf');
+@import url('../fonts/Comfortaa-Bold.ttf');
+
+body{
+    /* fond d'ecran degradé 3al site bkollou*/
+    background: linear-gradient(to right bottom,#191d4a,#191d4a, #1c3982);
+}
+
+
+header{
+    /* lheader bkolha bel logo w el menu */
+    padding-top: 2%;
+    height: 100px;
+}
+.logoBox{
+    /* he4iya div eli fiha logo (manette) */ 
+    padding-left: 4%;
+    float : left ; 
+}
+nav{
+    /* lmenu (home, about,..) */ 
+    float: right;
+    width: 40%;
+}
+.active{
+    text-shadow: 1px 1px 8px white ;
+}
+nav ul li{
+    display : inline-block;
+    padding-right: 5%;
+    font-size: 2.5vh;
+    font-family: 'Comfortaa';
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    /* taswira mte3 logo */
+    margin-top: -2%;
+    width: 20%;
+}
+
+.home{
+    /* class temchi 3al section eli fiha titre mte3 site wel 3ad tanezouli w section 
+    eli fiha taswira bejnabhom */
+    width: 40%;
+    padding-top: 2.5%;
+    padding-left: 4%;
+    display : inline-block;
+}
+.home-content{
+    /* section lisar mte3 home (IIT GAME JAM , ..) */
+    color : white ; 
+    vertical-align: top;  
+}
+.title{
+    /* tittre mte3 "IIT GAME JAM" */
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 10.0vh;
+    text-shadow: 0px 0px 10px white ;
+}
+.home-content p{
+    /* he4iya eli 7atet fiha bla bla bla atou men ba3d n7otou 7aja tesla7  */
+    font-family: 'Comfortaa';
+    font-size: 2.0vh;
+    width: 60%;
+}
+.counter-container h1{
+    /* div eli fiha l3ad tanezouli */
+    display: inline-block;
+    font-family: 'Comfortaa';
+}
+.timer{
+    margin-right: 5%;
+}
+.home-content button{
+    /* lbouton mte3 JOIN US */
+    font-family: 'Comfortaa';
+    width: 35%;
+    padding: 2% 10% 2% 10%;
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient(to left,#15b9df, #3cd8ab);
+    color : white ; 
+    font-size: 3.0vh;
+}
+.home-content button:hover{
+    /* he4iya bech ki t7ot souris fou9 el bouton ibadel taswiret el curseur te3 souris (men flech iwali yed) */ 
+    cursor:pointer ;
+}
+.home-content button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.home-img{
+    /* section limin eli fiha taswira b neon */
+    padding: 0;
+    padding-left: 5%;
+}
+.home-neon{
+    /* taswira bidha */
+    margin-top: -13%;
+    width : 120%;
+}
+
+.sectionTitle{
+    /* class temchi 3ala kol titre mte3 kol section, kima "about","awards",.. */
+    font-size: 5.0vh;
+    letter-spacing: 1vh;
+    font-family: 'Comfortaa';
+}
+.about{
+    /* section mte3 about*/
+    width:100%;
+}
+.aboutTitle{
+    /* titre te3 about */
+    color: #fec5fc ; 
+    text-shadow: 0px 0px 8px #fe50c8;
+}
+.glitch{
+    /* l code he4a welli ba3dou "@keyframes" ya3mlou el effet mte3 neon w effet mte3
+     el 7arf eli 4aw mte3ou ma7rou9 (7el site fel navigateur w chouf el titre bech tefhemni..)  */
+    animation-name: glitching;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+}
+@keyframes glitching{
+    0%{opacity:0;text-shadow: 0px 0px 0px;}
+    100%{opacity:1;text-shadow: 0px 0px 8px;}
+}
+
+.aboutContent{
+    /* he4eya lparagraphe mte3 about */
+    vertical-align: top;
+    width: 45%;
+    padding-top: 2.5%;
+    padding-left: 4%;
+    display : inline-block;
+    color : white ; 
+    font-family: 'Comfortaa';
+    font-size: 3vh;
+    text-align: justify;
+    line-height: 170%;
+    text-indent: 10%;
+}
+.aboutImgContainer{
+    /* div eli fiha taswira mte3 about */
+    width: 45%;
+    padding-top: 2.5%;
+    padding-left: 5%;
+    display : inline-block;
+}
+.aboutImg{
+    /* taswira bidha */ 
+    width: 80%;
+    border: #fec5fc 4px solid;
+    box-shadow: 40px 40px 80px black;
+}
+.awardsTitle{
+    /* titre mte3 partie awards */
+    color: #c6ebf4 ; 
+    text-shadow: 0px 0px 8px #29aaca;
+}
+.awards{
+    /* section awards */ 
+    margin-top: 10%;
+    text-align: center;
+}
+.winner{    
+    /* el class he4iya hiya elitged design mte3 el 3 carte (mte3 3 reb7in) */
+    width : 20% ; 
+    display: inline-block;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+.winner3{
+    /* he4iya ta3mel effet mte3 4aw lel carte lisar bech twali tech3el */
+    border: solid 5px #f2bd8f ; 
+    box-shadow: 10px 10px 30px #d6741e;
+}
+.winner1{
+    /* he4iya ta3mel effet mte3 4aw lel carte eli fel wast bech twali tech3el */
+    border: solid 5px #f7df40 ; 
+    box-shadow: 0px 10px 30px gold;
+}
+.winner2{
+    /* he4iya ta3mel effet mte3 4aw lel carte limin bech twali tech3el */
+    border: solid 5px white ; 
+    box-shadow: -10px 10px 30px silver;
+}
+.winner1 .winnerTitle{
+    /* lcode he4a weli ba3dou "@keyframes" i5ali kelmet Winner#1 tech3el w tetfa. */
+    animation: shine 2s infinite ;
+}
+@keyframes shine{
+    0%{text-shadow: 0px 0px 10px white;}
+    50%{text-shadow: 0px 0px 20px white;}
+    100%{text-shadow: 0px 0px 10px white;}
+}
+.winner ul{
+    text-align: left;
+    color : white ; 
+    font-family: 'Comfortaa';
+    line-height: 200%;
+    font-size: 2.5vh;
+}
+.winnerTitle{
+    text-shadow: 0px 0px 8px white;
+    font-family: 'Comfortaa';
+    color : white ; 
+    font-size: 4.0vh;
+}
+.facilitiesTitle{
+    color: #90ff92 ; 
+    text-shadow: 0px 0px 8px #34f238;
+}
+.facilities{
+    margin-top: 10%;
+    text-align: center;
+}
+table,tr,td{
+    border : solid 0px black ; 
+}
+table{
+    width:80%;
+    margin-top: 10%;
+}
+table td{
+    text-align: center;
+    vertical-align: center;
+}
+.facility{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2982c2 ;   
+    /*background: linear-gradient(to right bottom,#1c3982,#1ccfd9);*/
+    /*background: linear-gradient(to left top,#df45d2, #6205d9);*/
+    line-height: 25px;
+    width : 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px black;
+    color : white ; 
+    font-family: 'Comfortaa';
+}
+.facility i{
+    margin-top:23%;
+    font-size: 5vh;
+    color : white ; 
+}
+.form{
+    /* section mte3 form*/
+    width:100%;
+}
+.formTitle{
+    /* titre te3 form */
+    color: #fec5fc ; 
+    text-shadow: 0px 0px 8px #fe50c8;
+}
+.formContent{
+    /* he4eya lparagraphe mte3 form */
+    vertical-align: top;
+    width: 85%;
+    padding-top: 0%;
+    padding-left: 10%;
+    display : inline-block;
+    color : white ; 
+    font-family: 'Comfortaa';
+    font-size: 3vh;
+    text-align: justify;
+    line-height: 170%;
+    text-indent: 10%;
+}
+.contact{
+    margin-top:15%;
+}
+.contactTitle{
+    /* titre te3 about */
+    color: #c9a01b ; 
+    text-shadow: 0px 0px 8px #ee0f0f;
+}
+.contactContent{
+    /* he4eya lparagraphe mte3 about */
+    vertical-align: top;
+    width: 90%;
+    padding-top: 0%;
+    padding-left: 0%;
+    display : inline-block;
+    color : white ; 
+    font-family: 'Comfortaa';
+    font-size: 3vh;
+    text-align: justify;
+    line-height: 170%;
+    text-indent: 10%;
+}
+.styled{
+    /* lbouton mte3 Save */
+    font-family: 'Comfortaa';
+    width: 15%;
+    padding: 1% 2% 1% 2%;
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient(to left,#15b9df, #3cd8ab);
+    color : white ; 
+    font-size: 3.0vh;
+}
+.styled:hover{
+    /* he4iya bech ki t7ot souris fou9 el bouton ibadel taswiret el curseur te3 souris (men flech iwali yed) */ 
+    cursor:pointer ;
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoBox">
+            <img class="logo" src="img/logo_iit_white.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li class="active" onclick="jumpTo(this.id)" id="Home"><a href='#/'>Home</a></li>
+                <li onclick="jumpTo(this.id)" id="About"><a href='#/'>About</a></li>
+                <li onclick="jumpTo(this.id)" id="Awards"><a href='#/'>Awards</a></li>
+                <li onclick="jumpTo(this.id)" id="Facilities"><a href='#/'>Facilities</a></li>
+                <li onclick="jumpTo(this.id)" id="Contact"><a href='#/'>Contact</a></li>
+            </ul>
+        </nav>
+    </header><br>
+    <section class="home home-content" id="HomeSection">
+        <h1 class="title">IIT GAME <br> JAM</h1>
+        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
+        <div class="counter-container">
+            <h1 class="timer">DAYS:&nbsp<span>12 </span></h1>
+            <h1 class="timer">HOURS:&nbsp<span>1 </span></h1>
+            <h1 class="timer">MINUTES:&nbsp<span>23 </span></h1>
+            <h1 class="timer">SECONDS:&nbsp<span>47 </span></h1>
+        </div>
+        <button onclick="joinIn()">Join in</button>
+    </section>
+    <section class="home home-img">
+        <img class="home-neon" src="img/—Pngtree—neon effect video game hall_4825449.png" alt="">
+    </section><br>
+
+    <section class="about" id="AboutSection">
+        <center>
+            <h1 class="sectionTitle aboutTitle">ABO<span class="glitch">U</span>T</h1>
+        </center>
+        <br><br>
+        <section class="aboutContent">
+            <p>
+                The IIT Game Jam® (IGJ) is Tunisia's largest game creation event taking place in Sfax, typically at
+                physical locations. A "game jam" is essentially a hackathon focused on game development. It is the
+                growth of an idea that in today’s heavily connected world, we could come together, be creative, share
+                experiences and express ourselves in a multitude of ways using video games – it is very universal.
+            </p>
+        </section>
+        <section class="aboutImgContainer">
+            <img class="aboutImg" src="img/game_jam.JPG" alt="">
+        </section>
+    </section><br>
+
+    <section class="awards" id="AwardsSection">
+        <center>
+            <h1 class="sectionTitle awardsTitle">AW<span class="glitch">A</span>RDS</h1>
+        </center>
+        <br><br><br><br>
+        <article class="winner winner3">
+            <h1 class="winnerTitle">Winner #3</h1>
+            <ul>
+                <li>250 Dinars</li>
+                <li>Gaming Mouse Razer</li>
+            </ul>
+        </article>
+        <article class="winner winner1">
+            <h1 class="winnerTitle">Winner #1</h1>
+            <ul>
+                <li>400 Dinars</li>
+                <li>Gaming Mouse Razer</li>
+                <li>New Gaming PC</li>
+                <li>Free Netflix Account</li>
+                <li>Free Course on video game developpment</li>
+            </ul>
+        </article>
+        <article class="winner winner2">
+            <h1 class="winnerTitle">Winner #2</h1>
+            <ul>
+                <li>400 Dinars</li>
+                <li>Gaming Mouse Razer</li>
+                <li>Free Netflix Account</li>
+                <li>Free Course on video game developpment</li>
+            </ul>
+        </article>
+    </section>
+
+    <section class="facilities" id="FacilitiesSection">
+        <center>
+            <h1 class="sectionTitle facilitiesTitle">FACIL<span class="glitch">I</span>TIES</h1>
+            <table>
+                <tr>
+                    <td>
+                        <center>
+                            <div class="facility">
+                                <i class="fas fa-toilet"></i>
+                                <p>Toilet</p>
+                            </div>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <div class="facility">
+                                <i class="fas fa-wifi"></i>
+                                <p>Free Wifi</p>
+                            </div>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <div class="facility">
+                                <i class="fas fa-mug-hot"></i>
+                                <p>Free Coffee</p>
+                            </div>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <div class="facility">
+                                <i class="fas fa-laptop-code"></i>
+                                <p>Coaching</p>
+                            </div>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <div class="facility">
+                                <i class="fas fa-bed"></i>
+                                <p>Beds </p>
+                            </div>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </section>
+
+    <section class="contact" id="ContactSection">
+        <center><h1 class="sectionTitle contactTitle">CON<span class="glitch">T</span>ACT</h1></center>
+        <br><br>
+        <section class="contactContent">
+            <center>
+                <p>Institut International Technologie (IIT)</p>
+                <p>Route Mharza km 1,5 Sfax</p>
+                <p>Tel: (+216) 74 46 50 20</p>
+                <p>email: info@iit.tn</p>
+            </center>
+        </section>
+    </section><br>
+</body>
+</html>
